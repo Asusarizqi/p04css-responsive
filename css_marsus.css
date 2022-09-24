@@ -1,0 +1,103 @@
+@media screen and (max-width:680px){
+
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+}
+
+.judul {
+  color: black;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.judul:hover{
+  color: blueviolet;
+  cursor: pointer;
+  transition: 0.2s;
+  letter-spacing: 2px;
+}
+
+.detail {
+  padding-bottom: 1rem;
+  color: black;
+  margin: auto;
+}
+
+.detail:hover{
+  color: red;
+}  
+.syarat {
+  margin: 0px 0px 0px 1rem;
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+.tabel0{
+  min-width: 240px;
+}
+
+.tabel1{
+  color: blue;
+  min-width: 200px;
+}
+
+.tabel2{
+  color: blue;
+  width: 100%;
+}
+
+.pilihan{
+  color: purple;
+  font-size: auto;
+  min-width: 240px;
+}
+legend {
+  color: red;
+}
+
+select:hover {
+  background-color: blanchedalmond;
+}
+
+option:hover {
+  background-color: rgb(136, 252, 157);
+}
+
+input:hover {
+  background-color: yellow;
+}
+
+textarea:hover {
+  background-color: rgb(132, 202, 239);
+}
+
+.image-headers {
+  width: 100%;
+  height: auto;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-headers img {
+  width: 100%;
+  height: auto;
+}
+
+button a:hover{
+  background-color: blueviolet;
+  
+}
+
+.tombol{
+  align-items: left;
+}
